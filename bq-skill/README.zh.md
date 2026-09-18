@@ -4,6 +4,8 @@
 
 > 🌐 **中文** · [English](./README.md)
 
+[![Codex](https://img.shields.io/badge/Codex-Skill-2ea44f?style=flat-square&labelColor=1a1a1a)]()
+
 一个 Claude skill，专门做行为面试准备。不是给你现成答案，而是帮你把过去真实做过的事情挖出来、整理成一个可以反复用的故事库。它会一步步追问你的经历，用 STAR/CAR 帮你理清思路，打上"拿主意""处理模糊性"这类标签，中英文各存一份——下次碰上不一样的行为面试题，同一个故事还能接得住。
 
 ![「JD 驱动准备」报告 — Top 20 选题 + STAR 模板](assets/preview.png)

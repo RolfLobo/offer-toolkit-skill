@@ -4,6 +4,8 @@
 
 > 🌐 **English** · [中文](./README.zh.md)
 
+[![Codex](https://img.shields.io/badge/Codex-Skill-2ea44f?style=flat-square&labelColor=1a1a1a)]()
+
 A Claude skill for behavioral interview prep. Instead of handing you canned answers, it helps you dig your real past experiences out and organize them into a story bank you can reuse. It asks about your experience step by step, uses STAR/CAR to shape each story, tags them ("took ownership", "handled ambiguity", etc.), and saves each one in English and Chinese — so next time you get a different behavioral question, the same story still works.
 
 ![JD-driven prep report — Top 20 interview-question prep with STAR templates](assets/preview.png)
