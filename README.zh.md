@@ -95,7 +95,7 @@
 
 只想装一个？把对应子目录（如 `resume-skill/`）单独复制过去，每个都自包含。
 
-> 🔒 **你的数据不出本机。**JD、简历、职业故事都只在当下被模型读一遍，结果写回你本地磁盘——不上传服务器、不参与训练。
+> 🔒 **生成文件保存在本机。** 报告、简历和故事库会写入你的本地磁盘；你提交的提示词和附件如何被处理，取决于所使用的 agent 与模型服务商的数据政策。
 
 ### 30 秒上手
 
@@ -126,6 +126,38 @@
 ```
 
 顶层 router 会自动路由到对应子 skill，报告 / 简历 / 故事库直接生成在你桌面上，双击就能打开。
+
+## 常见问题
+
+<details>
+<summary><strong>需要安装全部六个 skill 吗？</strong></summary>
+
+不需要。安装整个工具包可以自动覆盖完整求职流程；如果只需要其中一项，单独复制对应子目录即可。每个子 skill 都是自包含的。
+</details>
+
+<details>
+<summary><strong>为什么安装后没有触发？</strong></summary>
+
+先确认目录中仍保留 `SKILL.md`，安装后再新开一个对话或重新加载 agent。也可以直接点名调用，例如：“使用 resume-skill 帮我改这份简历。”
+</details>
+
+<details>
+<summary><strong>可以在 Claude Code、Codex 或 VS Code 中使用吗？</strong></summary>
+
+可以，前提是客户端支持 `SKILL.md` 格式的 agent skill 或 workspace instructions。不同客户端的安装目录和发现机制可能不同，请以对应客户端的最新文档为准。
+</details>
+
+<details>
+<summary><strong>生成的文件保存在哪里？</strong></summary>
+
+大多数 HTML 报告默认保存到 `~/Desktop/Claude skills/`。故事库、已分析 JD 等长期记录可能保存在对应子 skill 目录中。任务完成后，agent 应明确告诉你实际输出路径。
+</details>
+
+<details>
+<summary><strong>它会自动投递职位或替我发消息吗？</strong></summary>
+
+不会。它可以发现并分析公开职位，但申请、填写表单、联系招聘方和操作账号都必须由你本人完成。
+</details>
 
 ## 触发词
 

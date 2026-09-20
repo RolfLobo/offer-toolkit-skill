@@ -95,7 +95,7 @@ Drop the whole `offer-toolkit-skill/` folder into your skills directory (e.g. `~
 
 Only want one? Copy just that sub-folder — each one is self-contained.
 
-> 🔒 **Your data stays on your machine.** JDs, resumes, and stories are read by the model in the moment and written back to your local disk — nothing gets shipped to a server or trained on.
+> 🔒 **Your generated files stay local.** Reports, resumes, and story banks are written to your machine. Your prompts and attachments are processed according to the data policy of the agent and model provider you use.
 
 ### Try it in 30 seconds
 
@@ -126,6 +126,38 @@ Help me negotiate this offer.
 ```
 
 The router picks the right sub-skill. You get an HTML report / resume / story bank on your desktop, ready to open.
+
+## FAQ
+
+<details>
+<summary><strong>Do I need to install all six skills?</strong></summary>
+
+No. Install the whole toolkit for automatic routing across the job-search journey, or copy a single sub-folder if you only need one skill. Every sub-skill is self-contained.
+</details>
+
+<details>
+<summary><strong>Why didn't the skill trigger?</strong></summary>
+
+Make sure the folder still contains its `SKILL.md`, then start a new chat or reload your agent after installation. You can also invoke it explicitly, for example: “Use resume-skill to improve this resume.”
+</details>
+
+<details>
+<summary><strong>Can I use this with Claude Code, Codex, or VS Code?</strong></summary>
+
+Yes, when the client supports `SKILL.md`-style agent skills or workspace instructions. Installation directories and skill-discovery behavior vary by client, so follow that client's current documentation.
+</details>
+
+<details>
+<summary><strong>Where are generated files saved?</strong></summary>
+
+Most HTML reports default to `~/Desktop/Claude skills/`. Some persistent records, such as story banks and analyzed JDs, live inside the relevant sub-skill folder. The agent should always report the exact output path when it finishes.
+</details>
+
+<details>
+<summary><strong>Will it apply to jobs or send messages for me?</strong></summary>
+
+No. It can discover and analyze public job listings, but applications, form submissions, recruiter messages, and account actions remain yours.
+</details>
 
 ## Trigger phrases
 
