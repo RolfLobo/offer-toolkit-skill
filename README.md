@@ -99,14 +99,31 @@ Only want one? Copy just that sub-folder — each one is self-contained.
 
 ### Try it in 30 seconds
 
-Once installed, just paste any of these into your Claude Code / VS Code chat:
+Once installed, copy any prompt into your Claude Code / VS Code chat:
 
-- *"Should I apply to this?"* + paste a JD link (or full text)
-- *"Use this JD and my resume to find matching LinkedIn jobs"*
-- *"Beautify my resume"* + drag in a PDF
-- *"Prep me for behavioral interviews"*
-- *"Compare these two offers and tell me which one to take"*
-- *"Help me negotiate this offer"*
+```text
+Should I apply to this? I'll paste the JD link or full text next.
+```
+
+```text
+Use this JD and my resume to find matching LinkedIn jobs.
+```
+
+```text
+Beautify my resume. I'll attach the PDF next.
+```
+
+```text
+Prep me for behavioral interviews.
+```
+
+```text
+Compare these two offers and tell me which one to take.
+```
+
+```text
+Help me negotiate this offer.
+```
 
 The router picks the right sub-skill. You get an HTML report / resume / story bank on your desktop, ready to open.
 
