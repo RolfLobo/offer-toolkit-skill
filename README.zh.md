@@ -136,6 +136,12 @@
 </details>
 
 <details>
+<summary><strong>六个 skill 必须按顺序使用吗？</strong></summary>
+
+不需要。刚开始求职时可以走完整流程，但也可以从当前阶段直接开始。已经拿到面试，就从 BQ Skill 开始；已经拿到 offer，就直接使用 Offer Compare 或 Salary Negotiation。
+</details>
+
+<details>
 <summary><strong>为什么安装后没有触发？</strong></summary>
 
 先确认目录中仍保留 `SKILL.md`，安装后再新开一个对话或重新加载 agent。也可以直接点名调用，例如：“使用 resume-skill 帮我改这份简历。”

@@ -136,6 +136,12 @@ No. Install the whole toolkit for automatic routing across the job-search journe
 </details>
 
 <details>
+<summary><strong>Do I have to use the six skills in order?</strong></summary>
+
+No. The full sequence is useful when you are starting a job search, but you can enter at any stage. Already have an interview? Start with BQ Skill. Already have offers? Go straight to Offer Compare or Salary Negotiation.
+</details>
+
+<details>
 <summary><strong>Why didn't the skill trigger?</strong></summary>
 
 Make sure the folder still contains its `SKILL.md`, then start a new chat or reload your agent after installation. You can also invoke it explicitly, for example: “Use resume-skill to improve this resume.”
