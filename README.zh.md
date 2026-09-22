@@ -154,6 +154,12 @@
 </details>
 
 <details>
+<summary><strong>它免费吗？需要 API Key 吗？</strong></summary>
+
+工具包本身开源，不需要单独的 API Key。你仍需使用兼容的 AI 客户端；是否需要订阅、按量付费或配置身份验证，取决于你选择的服务商。
+</details>
+
+<details>
 <summary><strong>生成的文件保存在哪里？</strong></summary>
 
 大多数 HTML 报告默认保存到 `~/Desktop/Claude skills/`。故事库、已分析 JD 等长期记录可能保存在对应子 skill 目录中。任务完成后，agent 应明确告诉你实际输出路径。

@@ -154,6 +154,12 @@ Yes, when the client supports `SKILL.md`-style agent skills or workspace instruc
 </details>
 
 <details>
+<summary><strong>Is it free, and do I need an API key?</strong></summary>
+
+The toolkit itself is open source and does not require a separate API key. You still need access to a compatible AI client, whose subscription, usage fees, and authentication requirements depend on the provider you choose.
+</details>
+
+<details>
 <summary><strong>Where are generated files saved?</strong></summary>
 
 Most HTML reports default to `~/Desktop/Claude skills/`. Some persistent records, such as story banks and analyzed JDs, live inside the relevant sub-skill folder. The agent should always report the exact output path when it finishes.
