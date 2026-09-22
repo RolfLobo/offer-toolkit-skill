@@ -27,7 +27,7 @@
 ```
 0  还在找机会      →  job-hunt-skill           批量发现、去重、生成可搜索清单
 1  看到心动岗位    →  job-description-skill    解码 JD、出一份 Offer Strategy 报告
-2  决定投          →  resume-skill             改简历、11 套打印级模板
+2  决定投          →  resume-skill             改简历、12 套打印级模板
 3  拿到面试        →  bq-skill                 挖故事、建故事库、准备 BQ
 4  拿到多个 offer  →  offer-compare-skill      对比 TC、成长与风险，给明确推荐
 5  准备签 offer    →  salary-negotiation-skill 诊断杠杆、生成话术、明确停止线
@@ -40,7 +40,7 @@
 <tbody>
 <tr><td><strong><a href="job-hunt-skill/">job&#8209;hunt&#8209;skill</a></strong></td><td>给一份简历、目标方向、种子 JD 或已有职位链接，自动搜索公开来源、去重并区分事实与推断，生成可搜索筛选的 HTML 职位清单。只发现和分析，不自动投递。</td></tr>
 <tr><td><strong><a href="job-description-skill/">job&#8209;description&#8209;skill</a></strong></td><td>贴一份 JD 和你的简历，给你一份 HTML 报告，告诉你：这岗位到底该不该投、你和它多匹配、差在哪里、面试大概会问什么、薪资合不合理、接下来 6 周该做什么。</td></tr>
-<tr><td><strong><a href="resume-skill/">resume&#8209;skill</a></strong></td><td>帮你把现有简历改好看，或者从 LinkedIn 导入，再或者聊着聊着帮你从零写一份。给你 <strong>11 套打印级模板</strong>（Classic-ATS、Ledger、Tech Compact、Modern Sidebar、Pillar、Elegant Serif、Atelier、Timeline、Swiss、Executive、Color-block）。每次同时给你两份文件：一份直接可以打印成 PDF，一份在浏览器里点字就能改。</td></tr>
+<tr><td><strong><a href="resume-skill/">resume&#8209;skill</a></strong></td><td>帮你把现有简历改好看，或者从 LinkedIn 导入，再或者聊着聊着帮你从零写一份。给你 <strong>12 套打印级模板</strong>（Classic-ATS、Ledger、Modern Sidebar、Pillar、Elegant Serif、Atelier、Timeline、Swiss、Executive、Editorial Banner、Photo Corporate、Photo Minimal）。每次同时给你两份文件：一份直接可以打印成 PDF，一份在浏览器里点字就能改。</td></tr>
 <tr><td><strong><a href="bq-skill/">bq&#8209;skill</a></strong></td><td>不是给你现成答案，而是帮你把过去真实做过的事情挖出来、整理成一个可以反复用的故事库。它会一步步追问你的经历，帮你用 STAR/CAR 理清思路，打上“拿主意”“択历就难”这类标签，中英文各存一份，下次碰上不同行为面试题也能用同一个故事。还能对着一份 JD，预测这家公司会问的 20 道题，帮你逐题准备。</td></tr>
 <tr><td><strong><a href="offer-compare-skill/">offer&#8209;compare&#8209;skill</a></strong></td><td>对比两份或多份 offer 的 4 年 TC、成长、AI 敞口、公司与团队风险、晋升、生活方式、简历价值和未来跳槽便利，生成 HTML Offer Decision Report，并给出明确推荐。</td></tr>
 <tr><td><strong><a href="salary-negotiation-skill/">salary&#8209;negotiation&#8209;skill</a></strong></td><td>诊断 Base、RSU、Sign-on、Bonus 的谈判空间，制定策略，生成可直接使用的中英文电话/邮件话术，模拟招聘官 pushback，并在 HTML Negotiation Playbook 中写清签、走和停止线。</td></tr>
@@ -63,7 +63,7 @@
 <tr>
 <td valign="top"><sub>岗位排序、证据标签和快速筛选。</sub></td>
 <td valign="top"><sub>岗位匹配度、能力差距、面试预测、薪资分析和行动计划。</sub></td>
-<td valign="top"><sub>11 套打印级版式，支持浏览器编辑和 PDF 导出。</sub></td>
+<td valign="top"><sub>12 套打印级版式，支持浏览器编辑和 PDF 导出。</sub></td>
 </tr>
 <tr>
 <td align="center"><h2>04 · 行为面试</h2></td>
@@ -192,7 +192,7 @@ offer-toolkit-skill/
 ├── LICENSE                         # MIT
 ├── job-hunt-skill/                 # ⓪ 完整可搜索职位清单
 ├── job-description-skill/          # ① JD 解码 + Offer Strategy 报告
-├── resume-skill/                   # ② 简历生成 + 11 套模板
+├── resume-skill/                   # ② 简历生成 + 12 套模板
 ├── bq-skill/                       # ③ 行为面试 / 故事库
 ├── offer-compare-skill/            # ④ 多 Offer 对比 + 决策报告
 └── salary-negotiation-skill/       # ⑤ 薪资谈判 + 可执行话术

@@ -12,7 +12,7 @@ description: "求职工具包。把「找岗位 → 签 offer」拆成六个独�
                     ↓ 选中岗位
               [Job Description Skill] 解码 JD · 出 Offer Strategy Report
                     ↓ 决定投
-              [Resume Skill] tailor + 美化 · 11 套模板 · 单文件 HTML
+              [Resume Skill] tailor + 美化 · 12 套模板 · 单文件 HTML
                     ↓ 拿到面试
               [BQ Skill] 挖故事 · 建故事库 · STAR 化 · 模拟面试
                     ↓ 拿到 offer
@@ -71,7 +71,7 @@ description: "求职工具包。把「找岗位 → 签 offer」拆成六个独�
 把"我需要一份好看的简历"变成稳定流程：所有素材先汇入 `schema/resume-data.md` 定义的标准数据结构，再套模板渲染。换模板只是换皮，内容不丢。
 
 三条入口：美化已有简历 / LinkedIn 导入 / 对话式建简历。
-11 套打印级模板：Classic-ATS · Ledger · Tech Compact · Modern Sidebar · Pillar · Elegant Serif · Atelier · Timeline · Swiss · Executive · Color-block。
+12 套打印级模板：Classic-ATS · Ledger · Modern Sidebar · Pillar · Elegant Serif · Atelier · Timeline · Swiss · Executive · Editorial Banner · Photo Corporate · Photo Minimal。
 每次渲染同时输出**锁定版**（直接 Cmd+P 存 PDF）和**可编辑版**（浏览器里点字微调 + 浮动工具条）。
 
 ### 3 · [BQ Skill](bq-skill/SKILL.md) — 行为面试故事库

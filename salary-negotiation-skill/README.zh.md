@@ -109,7 +109,7 @@ salary-negotiation-skill/
 
 - [offer-toolkit-skill](https://github.com/yanliudesign/offer-toolkit-skill) — 六件套（Search · JD · Resume · BQ · Compare · Negotiate）
 - [job-description-skill](https://github.com/yanliudesign/job-description-skill) — JD 解码器 + should-I-apply
-- [resume-builder-skill](https://github.com/yanliudesign/resume-builder-skill) — 简历生成与美化（11 套打印级模板）
+- [resume-builder-skill](https://github.com/yanliudesign/resume-builder-skill) — 简历生成与美化（12 套打印级模板）
 - [Behavior-question-skill](https://github.com/yanliudesign/Behavior-question-skill) — 行为面试 / 职业故事库
 - [offer-compare-skill](https://github.com/yanliudesign/offer-compare-skill) — 多份 offer 先比较，再谈选中的一份
 

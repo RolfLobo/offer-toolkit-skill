@@ -104,7 +104,7 @@ Pairs with these — the full job-hunt loop:
 
 - [offer-toolkit-skill](https://github.com/yanliudesign/offer-toolkit-skill) — the all-in-one bundle (Search · JD · Resume · BQ · Compare · Negotiate)
 - [job-description-skill](https://github.com/yanliudesign/job-description-skill) — Job Description decoder + should-I-apply
-- [resume-builder-skill](https://github.com/yanliudesign/resume-builder-skill) — Resume Builder & Beautifier (11 print-ready templates)
+- [resume-builder-skill](https://github.com/yanliudesign/resume-builder-skill) — Resume Builder & Beautifier (12 print-ready templates)
 - [Behavior-question-skill](https://github.com/yanliudesign/Behavior-question-skill) — Behavioral interview / story bank
 - [salary-negotiation](https://github.com/yanliudesign/salary-negotiation) — Negotiate the offer you picked here
 

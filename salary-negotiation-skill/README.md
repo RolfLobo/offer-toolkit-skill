@@ -109,7 +109,7 @@ Pairs with the full loop — get the offer through Search → JD → Resume → 
 
 - [offer-toolkit-skill](https://github.com/yanliudesign/offer-toolkit-skill) — the all-in-one bundle (Search · JD · Resume · BQ · Compare · Negotiate)
 - [job-description-skill](https://github.com/yanliudesign/job-description-skill) — Job Description decoder + should-I-apply
-- [resume-builder-skill](https://github.com/yanliudesign/resume-builder-skill) — Resume Builder & Beautifier (11 print-ready templates)
+- [resume-builder-skill](https://github.com/yanliudesign/resume-builder-skill) — Resume Builder & Beautifier (12 print-ready templates)
 - [Behavior-question-skill](https://github.com/yanliudesign/Behavior-question-skill) — Behavioral interview / story bank
 - [offer-compare-skill](https://github.com/yanliudesign/offer-compare-skill) — Compare multiple offers before negotiating the winner
 

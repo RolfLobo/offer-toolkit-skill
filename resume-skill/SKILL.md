@@ -1,6 +1,6 @@
 ---
 name: resume-skill
-description: "简历生成与美化。两种入口：把已有简历(PDF/Word/文本)解析、诊断、套用模板美化；或者还没有简历时，通过 LinkedIn 导入或一问一答的对话帮你从零建出一份。输出单页打印优化的 HTML(浏览器里 Cmd+P 直接存成 PDF)，提供 4 套模板：Classic/ATS 友好、Modern 侧栏、Elegant 衬线、Tech 紧凑。关键词：resume, CV, 简历, 美化简历, 做简历, 简历模板, resume template, LinkedIn 简历, 求职简历, ATS, 改简历, polish resume。"
+description: "简历生成与美化。两种入口：把已有简历(PDF/Word/文本)解析、诊断、套用模板美化；或者还没有简历时，通过 LinkedIn 导入或一问一答的对话帮你从零建出一份。输出单页打印优化的 HTML(浏览器里 Cmd+P 直接存成 PDF)，提供 12 套模板，覆盖 ATS 友好、侧栏、衬线、编辑、时间轴与头像版式。关键词：resume, CV, 简历, 美化简历, 做简历, 简历模板, resume template, LinkedIn 简历, 求职简历, ATS, 改简历, polish resume。"
 ---
 
 # Resume Skill — 简历生成与美化
@@ -56,12 +56,11 @@ description: "简历生成与美化。两种入口：把已有简历(PDF/Word/�
 ## 渲染流程（三条入口共用的后半段）
 
 1. **确认结构化数据**：把整理好的 `resume-data` 内容回显给用户，确认无误（尤其数字）。
-2. **选模板**：13 套，问用户偏好（默认推荐 Classic/ATS，因为海投最稳）：
+2. **选模板**：12 套，问用户偏好（默认推荐 Classic/ATS，因为海投最稳）：
    | 模板 | 文件 | 适合 | ATS |
    |---|---|---|---|
    | **Classic / ATS** | `templates/classic-ats.html` | 单栏无花哨，机器可解析，大公司海投最稳 | ✅ 友好 |
    | **Ledger 学术工程** | `templates/ledger.html` | LaTeX 风衬线，公司/日期两端对齐，嵌套子弹，软件/数据/工程岗 | ✅ 友好 |
-   | **Tech 紧凑** | `templates/tech-compact.html` | 高信息密度+等宽点缀，工程师把多项目塞进一页 | 🟡 尚可 |
    | **Modern 侧栏** | `templates/modern-sidebar.html` | 双栏+深色侧边栏，现代感强 | 🟡 一般 |
    | **Pillar 信息卡** | `templates/pillar.html` | Enhancv 风，蓝点缀+技能胶囊+图标成就+语言进度点，产品/市场/PM | 🟡 一般 |
    | **Elegant 衬线** | `templates/elegant-serif.html` | 衬线居中编辑风，设计/咨询/市场等偏人文岗 | 🟡 一般 |
@@ -100,4 +99,4 @@ description: "简历生成与美化。两种入口：把已有简历(PDF/Word/�
 - `prompts/beautify.md` — 已有简历解析与诊断
 - `prompts/editable-version.md` — 把成品升级成浏览器可编辑版的注入片段
 - `guides/writing-tips.md` — bullet 写法、量化、ATS 关键词、常见错误
-- `templates/*.html` — 13 套打印优化模板
+- `templates/*.html` — 12 套打印优化模板

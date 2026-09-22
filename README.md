@@ -27,7 +27,7 @@ Six job-hunting tools bundled as an agent skill pack. Use the whole thing, or ju
 ```
 0  Discover opportunities → job-hunt-skill           Build a deduplicated, searchable HTML job list.
 1  See a job you want    →  job-description-skill    Decode the JD, get an Offer Strategy report.
-2  Decide to apply       →  resume-skill             Tailor & polish. 11 print-ready templates.
+2  Decide to apply       →  resume-skill             Tailor & polish. 12 print-ready templates.
 3  Land the interview    →  bq-skill                 Mine stories, build a story bank, prep BQs.
 4  Compare offers        →  offer-compare-skill      Compare TC, growth, risk, and get a clear recommendation.
 5  Negotiate the package →  salary-negotiation-skill Diagnose leverage, generate scripts, and set stop-lines.
@@ -40,7 +40,7 @@ Six job-hunting tools bundled as an agent skill pack. Use the whole thing, or ju
 <tbody>
 <tr><td><strong><a href="job-hunt-skill/">job&#8209;hunt&#8209;skill</a></strong></td><td>Give it a resume, target direction, seed JD, or existing job links. It searches public sources, deduplicates candidates, separates verified facts from inference, and generates a searchable HTML job list. It discovers and analyzes; it never applies for you.</td></tr>
 <tr><td><strong><a href="job-description-skill/">job&#8209;description&#8209;skill</a></strong></td><td>Give it a JD and your resume. You get back an HTML report telling you: whether this job is worth applying to, how well you match it, where the gaps are, what you'll probably be asked in interviews, whether the salary is reasonable, and what to do over the next six weeks.</td></tr>
-<tr><td><strong><a href="resume-skill/">resume&#8209;skill</a></strong></td><td>Polishes an existing resume, pulls one in from LinkedIn, or builds one from scratch by chatting with you. The content then flows into <strong>11 print-ready templates</strong> (Classic-ATS, Ledger, Tech Compact, Modern Sidebar, Pillar, Elegant Serif, Atelier, Timeline, Swiss, Executive, Color-block). Each render gives you two files: one that prints straight to PDF, and one you can click on in the browser to edit.</td></tr>
+<tr><td><strong><a href="resume-skill/">resume&#8209;skill</a></strong></td><td>Polishes an existing resume, pulls one in from LinkedIn, or builds one from scratch by chatting with you. The content then flows into <strong>12 print-ready templates</strong> (Classic-ATS, Ledger, Modern Sidebar, Pillar, Elegant Serif, Atelier, Timeline, Swiss, Executive, Editorial Banner, Photo Corporate, Photo Minimal). Each render gives you two files: one that prints straight to PDF, and one you can click on in the browser to edit.</td></tr>
 <tr><td><strong><a href="bq-skill/">bq&#8209;skill</a></strong></td><td>Instead of handing you canned answers, it helps you dig your real past experiences out and organize them into a story bank you can reuse. It asks about your experience step by step, uses STAR/CAR to shape each story, tags them ("took ownership", "handled ambiguity", etc.), and saves them in English and Chinese — so next time you get a different behavioral question, the same story still works. It can also read a JD, predict the 20 questions that company is likely to ask, and walk you through prep for each one.</td></tr>
 <tr><td><strong><a href="offer-compare-skill/">offer&#8209;compare&#8209;skill</a></strong></td><td>Compares two or more offers across four-year TC, growth, AI exposure, company and team risk, promotion, lifestyle, resume value, and future mobility. It produces an HTML Offer Decision Report with an explicit recommendation.</td></tr>
 <tr><td><strong><a href="salary-negotiation-skill/">salary&#8209;negotiation&#8209;skill</a></strong></td><td>Diagnoses Base, RSU, Sign-on, and Bonus leverage; builds a negotiation strategy; writes ready-to-use phone and email scripts; simulates recruiter pushback; and defines clear sign, walk, and stop-lines in an HTML Negotiation Playbook.</td></tr>
@@ -192,7 +192,7 @@ offer-toolkit-skill/
 ├── LICENSE                         # MIT
 ├── job-hunt-skill/                 # ⓪ Complete searchable job discovery list
 ├── job-description-skill/          # ① JD decoder + Offer Strategy report
-├── resume-skill/                   # ② Resume builder + 11 templates
+├── resume-skill/                   # ② Resume builder + 12 templates
 ├── bq-skill/                       # ③ Behavioral interview / story bank
 ├── offer-compare-skill/            # ④ Multi-offer comparison + decision report
 └── salary-negotiation-skill/       # ⑤ Package negotiation + scripts
