@@ -1,6 +1,6 @@
 <div align="center">
 
-[English](./README.md) · **中文**
+**中文** · [English](./README.md)
 
 # 💭 BQ Skill
 
