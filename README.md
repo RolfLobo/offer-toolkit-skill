@@ -63,7 +63,7 @@ Six job-hunting tools bundled as an agent skill pack. Use the whole thing, or ju
 <tr>
 <td valign="top"><sub>Ranked opportunities, evidence labels, and filters.</sub></td>
 <td valign="top"><sub>Role fit, gaps, interview predictions, compensation, and action plan.</sub></td>
-<td valign="top"><sub>Eleven print-ready layouts with browser editing and PDF export.</sub></td>
+<td valign="top"><sub>Twelve print-ready layouts with browser editing and PDF export.</sub></td>
 </tr>
 <tr>
 <td align="center"><h2>04 · BQ PREP</h2></td>
