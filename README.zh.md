@@ -24,14 +24,14 @@
 
 六个求职工具打包成一个 agent skill 包。可以整包用，也可以只挑其中一个——每个子目录都能独立跑。
 
-```
-0  还在找机会      →  job-hunt-skill           批量发现、去重、生成可搜索清单
-1  看到心动岗位    →  job-description-skill    解码 JD、出一份 Offer Strategy 报告
-2  决定投          →  resume-skill             改简历、12 套打印级模板
-3  拿到面试        →  bq-skill                 挖故事、建故事库、准备 BQ
-4  拿到多个 offer  →  offer-compare-skill      对比 TC、成长与风险，给明确推荐
-5  准备签 offer    →  salary-negotiation-skill 诊断杠杆、生成话术、明确停止线
-```
+| 阶段 | Skill | 做什么 |
+|---|---|---|
+| 0 · 还在找机会 | [job-hunt-skill](./job-hunt-skill/) | 批量发现、去重并生成可搜索清单。 |
+| 1 · 看到心动岗位 | [job-description-skill](./job-description-skill/) | 解码 JD，生成 Offer Strategy 报告。 |
+| 2 · 决定投 | [resume-skill](./resume-skill/) | 修改简历，提供 12 套打印级模板。 |
+| 3 · 拿到面试 | [bq-skill](./bq-skill/) | 挖故事、建故事库并准备 BQ。 |
+| 4 · 拿到多个 offer | [offer-compare-skill](./offer-compare-skill/) | 对比 TC、成长与风险，给出明确推荐。 |
+| 5 · 准备签 offer | [salary-negotiation-skill](./salary-negotiation-skill/) | 诊断杠杆、生成话术并明确停止线。 |
 
 ## 里面有什么
 

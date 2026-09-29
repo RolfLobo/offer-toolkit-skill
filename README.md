@@ -24,14 +24,14 @@
 
 Six job-hunting tools bundled as an agent skill pack. Use the whole thing, or just the piece you need — each sub-folder works on its own.
 
-```
-0  Discover opportunities → job-hunt-skill           Build a deduplicated, searchable HTML job list.
-1  See a job you want    →  job-description-skill    Decode the JD, get an Offer Strategy report.
-2  Decide to apply       →  resume-skill             Tailor & polish. 12 print-ready templates.
-3  Land the interview    →  bq-skill                 Mine stories, build a story bank, prep BQs.
-4  Compare offers        →  offer-compare-skill      Compare TC, growth, risk, and get a clear recommendation.
-5  Negotiate the package →  salary-negotiation-skill Diagnose leverage, generate scripts, and set stop-lines.
-```
+| Stage | Skill | What it does |
+|---|---|---|
+| 0 · Discover opportunities | [job-hunt-skill](./job-hunt-skill/) | Build a deduplicated, searchable HTML job list. |
+| 1 · See a job you want | [job-description-skill](./job-description-skill/) | Decode the JD and get an Offer Strategy report. |
+| 2 · Decide to apply | [resume-skill](./resume-skill/) | Tailor and polish your resume with 12 print-ready templates. |
+| 3 · Land the interview | [bq-skill](./bq-skill/) | Mine stories, build a story bank, and prep BQs. |
+| 4 · Compare offers | [offer-compare-skill](./offer-compare-skill/) | Compare TC, growth, and risk, then get a clear recommendation. |
+| 5 · Negotiate the package | [salary-negotiation-skill](./salary-negotiation-skill/) | Diagnose leverage, generate scripts, and set stop-lines. |
 
 ## What's inside
 
